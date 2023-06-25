@@ -25,15 +25,22 @@ li {
     border-radius: 12px;
 }
 #temperature {
-    font-size: 28px;
+    font-size: 30px;
     display: inline-block;
 }
 .units {
-    font-size: 12px;
+    font-size: 15px;
 }
 .weather-icon {
-    width: 22%;
+    width: 24%;
     margin-top:5%;
+}
+a {
+    text-decoration: none;
+}
+.active {
+    color: #000;
+    cursor: default;
 }
 footer {
     font-size: 12px;
