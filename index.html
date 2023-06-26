@@ -14,7 +14,7 @@
             <form id="search-form" class = "mb-3">
                 <div class="row">
                     <div class="col-9">
-                <input type ="search" placeholder="enter a city..." class="form-control" 
+                <input type ="search" placeholder="Enter a city..." class="form-control" 
                 id="city-input" />
                 </div>
                 <div class="col-3">
@@ -28,7 +28,7 @@
 </ul> 
 <div class = "row">
     <div class = "col-6">
-<img src = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/D200PartlySunnyV2.svg" alt = "weather" id="icon" />
+<img src = "" id="icon" />
 <strong id="temperature"></strong><span class="units"> <a href="#" id="celsius" class="active"> °C</a> | <a href="#" id="fahrenheit">°F</a></span>
 </div>
 <div class = "col-6">
@@ -38,10 +38,25 @@
     </ul>
     </div>
 </div>
+<div class="weather-forecast">
+    <div class="row">
+        <div class="col-2">
+            <div class="forecast-date">
+            Mon
+            </div>
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" width="45"/>
+        <div class="forecast-temperatures">
+            <span class="temperature-max">21°</span>
+            <span class="temperature-min">12°</span>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
 </div>
 </div>
 </div>
 <script src="src/index.js"></script> 
-<footer><a href="#">Open-source code</a> by Chandni Patel</footer>
+<footer><a href="https://cheery-sprinkles-304b36.netlify.app/" target="_blank">Open-source code</a> by Chandni Patel</footer>
 </body>
 </html>
