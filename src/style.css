@@ -56,7 +56,10 @@ a {
 
 }
 footer {
-    font-weight: bold;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
+    font-family: courier;
+    font-weight: bold;
 }
+
+
